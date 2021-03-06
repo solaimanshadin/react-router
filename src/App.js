@@ -50,7 +50,7 @@ function App() {
         <Route path="/works">
           <Works />
         </Route>
-        <Route  path="/work/:name">
+        <Route  path="/work/:productName">
           <WorkDetail />
         </Route>
 
