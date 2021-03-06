@@ -1,5 +1,7 @@
 import React from 'react';
-
+import {
+    Link
+} from "react-router-dom";
 const Work = (props) => {
     const {id, name,image} = props.work;
     return (
@@ -9,7 +11,7 @@ const Work = (props) => {
                 <div className="card-body">
                     <h5 className="card-title">{name}</h5>
                     <div className="text-center">
-                        <button className="btn btn-primary">View Details</button>
+                        <Link to={'/work/'+ name} className="btn btn-primary">View Details</Link>
                     </div>
                 </div>
             </div>

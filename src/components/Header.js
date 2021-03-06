@@ -1,5 +1,7 @@
 import React from 'react';
-
+import {
+    Link
+} from "react-router-dom";
 const Header = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -15,16 +17,16 @@ const Header = () => {
                     </form> */}
                     <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li className="nav-item">
-                            <a className="nav-link active" aria-current="page" href="/">Home</a>
+                            <Link className="nav-link active" aria-current="page" to="/home">Home</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/about">About</a>
+                            <Link className="nav-link" to="/about">About</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/works">Works</a>
+                            <Link className="nav-link" to="/works">Works</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/contact">Contact</a>
+                            <Link className="nav-link" to="/contact">Contact</Link>
                         </li>
                     </ul>
                    
