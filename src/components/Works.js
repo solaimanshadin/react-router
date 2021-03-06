@@ -1,6 +1,6 @@
 import React from 'react';
-import works from '../../fakeData/works.json';
-import Work from '../Work';
+import works from '../fakeData/works.json';
+import Work from './Work';
 const Works = () => {
     return (
         <div className="container my-5">

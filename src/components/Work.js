@@ -9,7 +9,7 @@ const Work = (props) => {
                 <div className="card-body">
                     <h5 className="card-title">{name}</h5>
                     <div className="text-center">
-                        <button className="btn btn-success">View Details</button>
+                        <button className="btn btn-primary">View Details</button>
                     </div>
                 </div>
             </div>
